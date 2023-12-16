@@ -1,0 +1,89 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+moonstone: #729EA1
+rich black: #061826
+sunset: #F6CA83
+thristle: #D7B9D5
+chestnut: #994636
+*/
+
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Nova Square', sans-serif;        
+}
+
+body{
+    background:linear-gradient(0.25turn,#D7B9D5, #F6CA83, #D7B9D5)
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vmin;
+    background-color:  #061826;
+}
+
+.logo{
+    text-decoration: none;
+    left:1vmin;
+    position:absolute;
+    height:5vmin ;
+}
+
+.nav > a{
+    text-decoration: none;
+    font-size: 3vmin;
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    transition: .3s ease;
+    color: #D7B9D5;
+}
+
+.nav > a:hover{
+    font-size: 3.2vmin;
+}
+.content-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+.project-box{
+width: 120vmin;
+height: 80vmin;
+background-color:#994636;
+border-radius: 1.25vmin;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top:10vmin;
+margin-bottom: 1.25vmin;
+}
+
+.thumbnail{
+    width: 80vmin;
+    height: 40vmin;
+    border-radius: 1.25vmin;
+    margin-top:10vmin;
+}
+
+.title{
+    font-size: 3vmin;
+    color:#D7B9D5;
+}
+
+.desc{
+    text-align:center;
+    font-size: 2.5vmin;
+    padding:5vmin;
+}
+
+.project-link{
+    font-size:2.5vmin;
+    color: #F6CA83;
+}
